@@ -1,0 +1,540 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+/* Body styles */
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/987/648/non_2x/abstract-luxury-white-grey-background-with-golden-line-free-vector.jpg);
+}
+/* Header Styles */
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 2px #EDEDED;
+    background-color: rgb(196, 166, 0);
+}
+
+header .container{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header .container .content-img{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .container .content-img img{
+    width: 100%;
+}
+
+header .container .content-nav{
+    width: 60%;
+}
+
+header .container .content-nav nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header .container .content-nav nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+}
+
+header .container .content-nav nav ul li{
+    padding: 5px 10px ;
+    font-family: 'Source Code Pro', monospace;
+}
+
+header .container .content-nav nav ul li a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+}
+
+header .container .content-logs{
+    width: 20%;
+    display: flex;
+}
+
+header .container .content-logs div{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .container .content-logs div:nth-child(1){
+    display: flex;
+    justify-content: end;
+    margin-right: 3px;
+}
+
+header .container .content-logs div:nth-child(2){
+    justify-content: start;
+    display: flex;
+    margin-left: 3px;
+}
+
+header .container .content-logs div a svg{
+    width: 1.8rem;
+    height: 1.8rem;
+}
+/* End Header Styles */
+
+/* Main Styles */
+main{
+    background: url(fondo.jpg);
+    
+}
+
+.bienvenida{
+    text-align: center;
+    height: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contenedor-ind{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bienvenida {
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.productos div{
+    margin: 30px;
+    height: 20%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.productos div h2{
+    width: 100%;
+    text-align: center;
+}
+
+.productos div p{
+    width: 100%;
+}
+
+.espacio-ind{
+    height: 25px;
+}
+
+.productos{
+    background-color: rgb(95, 158, 160);
+    height: 20%;
+    display: flex;  
+}
+
+.productos div img{
+    height: 100px;
+    width: auto;
+    margin: 0 auto;
+
+} 
+
+.imagenRepre{
+    width: 80%;
+    height: 50%;
+}
+
+/* edicion services*/
+
+.contenedor1{
+    display: flex;
+}
+
+.contenedor1 div{
+    width: 50%;
+    height: 100%;
+}
+
+.contenedor1 .texto1{
+    background-color: rgb(95, 158, 160);
+    margin: 10px;
+}
+
+.texto2{
+    background-color: rgb(147, 168, 168); 
+    padding: 26px;
+}
+
+main h1{
+    text-align: center;
+}
+
+.bienvenida1 {
+    display: flex;
+    margin: 5px;
+}
+
+.bienvenida1 .img1{
+    margin: 10px;
+}
+
+.bienvenida1 h2{
+    font-size: large;
+    color: rgb(0, 0, 0);
+}
+
+.fondotexto{
+   margin:20px;
+}
+
+.txt5{
+    text-align: center;
+    width: 100%;
+    align-content: center;
+}
+/* End main Styles*/
+
+
+/* Styles footer */
+
+footer{
+    border-top: solid rgb(58, 58, 58) 2px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(196, 166, 0);
+}
+
+footer div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer div span{
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;  
+}
+
+/* End Styles Footer */
+
+
+
+/* Pagina abouts - Main*/
+
+main h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+.contper{
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10em;
+}
+
+.contenedorper{
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.contenedorper h1{
+    font-size: 100px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/696/297/non_2x/elegant-gold-and-black-dotted-background-vector.jpg);
+    margin-bottom: 20px;
+}
+
+.contenedorper h2{
+    color: rgb(196, 166, 0);
+}
+
+.contenedorper img{
+    width: 800px;
+    align-items: center;
+}
+
+
+/* CONTACTENOS */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .form-register {
+    width: 700px;
+    background: rgb(95, 158, 160);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #303b47;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+
+  .espacio{
+      margin: 40px;
+      padding: 40px;
+      align-items: center;
+      text-align: center;
+  }
+
+  .informacion-cont{
+      display: flex;
+      width: 100%;
+      height: 100px;
+      text-align: center;
+      align-items: center;
+    
+}
+
+.text-cont{
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    background-color: rgb(196, 166, 0);
+}
+
+/* personal */
+
+.publicidad{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    background-color: rgb(95, 158, 160);
+    margin: 10px;
+    width: 30%;
+}
+
+.publicidad img{
+    
+    padding: 5px;
+    width: 100%;
+    height: 80%;
+}
+
+.publicidad h2{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 5px;
+    font-size: xx-large;
+}
+
+
+.contenedorAB{
+    height: 80%;
+    width: 100%;
+    display: flex;
+
+}
+
+.contenidoPrincipal{
+    background-color: rgb(147, 168, 168);
+    width: 70%;
+    height: 100%;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.contenidoPrincipal h2{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.contenidoPrincipal .parrafo{
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.contenidoPrincipal img{
+    width: 45%;
+    height: 55%;
+    justify-content: center;
+}
+
+.txt-per{
+    background-color: rgb(196, 166, 0);
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+
+.txt-per img{
+    width: 5%;
+    height: 5%;
+}
+
+.txt3-per{
+    text-align: center;
+    justify-content: center;   
+}
+
+.txt3-per img{
+    width: 5%;
+    height: 5%;
+}
+
+.contenidoPrincipal input{
+    background-color: rgb(0, 150, 155);
+    height: 40px;
+    width: 200px;
+}
+
+.imgP{
+    width: 30px;
+    height: 30px;
+}
+
+/*estilos terms*/
+
+.main-terms{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.main-terms img{
+    width: 100%;
+
+}
+
+.main-terms section{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(95, 158, 160);
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main-terms section .img1 img{
+    height: 100%;
+    width: 100%;
+
+}
+
+.main-terms  section .img2{
+    width: 60%;
+    text-align: center;
+    padding: 50px;
+}
+
+.main-terms  section .img2 p{
+    margin: 20px;
+}
+
+.main-terms hr{
+    background-color: rgb(196, 166, 0);
+    width: 100%;
+    height: 6px;
+    align-items: center;
+}
+
+
+.final-terms{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+
+.final-terms div img{
+    width: 200px;
+    margin: 40px;
+    align-items: center;
+}
+
+.final-terms div{
+    width: 33.33%;
+    align-items: center;
+}
